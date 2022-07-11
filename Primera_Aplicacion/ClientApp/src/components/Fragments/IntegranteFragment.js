@@ -5,11 +5,11 @@ import React, { useEffect, useState } from 'react'
 const IntegranteFragment = ({imagen, titulo, descripcion}) => {
     return (
         <>
-            <div class="card">
+            <div className="card">
                 <img src={imagen} class="card-img-top" alt="" />
-                <div class="card-body">
-                    <h5 class="card-title">{titulo}</h5>
-                    <p class="card-text">{descripcion}</p>
+                <div className="card-body">
+                    <h5 className="card-title">{titulo}</h5>
+                    <p className="card-text">{descripcion}</p>
                 </div>
             </div>
         </>
